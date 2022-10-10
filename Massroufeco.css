@@ -1,0 +1,41 @@
+.input-group{
+
+}
+.card{
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+    width: auto;
+    height: auto;
+    min-height: 250px;
+    min-width: 250px;
+    margin: 25%;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+input{
+    height: 30px;
+    width: 80px;
+}
+button{
+    border-color: cadetblue;
+    border-radius: 6px;
+    background-color: white;
+    width: auto;
+    height: 38px;
+    font-size: 18px;
+    font-family: cursive;
+    margin-top: 20px;
+    
+}
+body{
+    background-image:url("https://image.shutterstock.com/image-photo/different-colored-wallets-lying-on-600w-2108985515.jpg") ;
+background-repeat: no-repeat;
+background-size: cover;
+}
+label{
+    font-size: 18px;
+    color: whitesmoke;
+    font-family: cursive;
+}
