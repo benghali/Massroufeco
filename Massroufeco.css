@@ -1,15 +1,13 @@
-.input-group{
 
-}
 .card{
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: last baseline;
     background-color: cornflowerblue;
     width: auto;
     height: auto;
     min-height: 250px;
     min-width: 250px;
-    margin: 25%;
+    margin: 0%;
     padding: 20px;
     border-radius: 4px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0,0,0,0.19);
@@ -30,12 +28,43 @@ button{
     
 }
 body{
-    background-image:url("https://image.shutterstock.com/image-photo/different-colored-wallets-lying-on-600w-2108985515.jpg") ;
-background-repeat: no-repeat;
+    background-image:url(/Program\ Files/portafoglio2_generated.jpg) ;
+background-repeat:repeat;
 background-size: cover;
 }
 label{
     font-size: 18px;
     color: whitesmoke;
     font-family: cursive;
+}
+h1{
+    font-family: cursive;
+    color:yellowgreen;
+    font-size: 100px;
+    text-align: center;
+    position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h2{
+    font-family: cursive;
+    color:yellowgreen;
+    font-size: 50px;
+    text-align: left;
+}
+p{
+    font-family: cursive;
+    color:white;
+    font-size: 30px;
+    text-align: left;
+}
+.img{
+    left:0%;
+    top:0%;
+}
+#salarys{
+    color:white;
+    font-family: 50px;
 }
