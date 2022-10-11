@@ -1,6 +1,7 @@
 /// automatic way with onclick event handler
 function massroufEco() {
-    food = 0.1 * Salary;
+  var Salary = document.getElementById("salary").value ;
+   var food = 0.1 * Salary;
     var transportation = 0.05 * Salary;
     var fuelCharges = 0.25 * Salary;
     var clothes = 0.05 * Salary;
